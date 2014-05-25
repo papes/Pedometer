@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>621B96A9-8B6D-43A0-A34E-2C088F0A28E9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Pedometer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4BCF559A-0F28-4157-B637-DBB3274A3D82</key>
+		<string>https://github.com/papes/Pedometer</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pedometer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4BCF559A-0F28-4157-B637-DBB3274A3D82</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/papes/Pedometer</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4BCF559A-0F28-4157-B637-DBB3274A3D82</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4BCF559A-0F28-4157-B637-DBB3274A3D82</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Pedometer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

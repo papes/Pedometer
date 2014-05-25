@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="5M3-mT-UJL">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Th5-Rz-5yU">
+            <objects>
+                <viewController storyboardIdentifier="MyViewController" id="5M3-mT-UJL" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2KE-CR-39q"/>
+                        <viewControllerLayoutGuide type="bottom" id="nfE-Zn-2ZC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ifi-r6-Qn9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O37-9M-MRY">
+                                <rect key="frame" x="0.0" y="207" width="320" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="153" id="55G-oc-Pft"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steps Taken Today:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFE-1L-4PS">
+                                <rect key="frame" x="0.0" y="71" width="320" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="Cad-vP-CxI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fFE-1L-4PS" firstAttribute="top" secondItem="2KE-CR-39q" secondAttribute="bottom" constant="51" id="OH7-4m-VMi"/>
+                            <constraint firstItem="fFE-1L-4PS" firstAttribute="leading" secondItem="O37-9M-MRY" secondAttribute="leading" id="OJj-I5-iC3"/>
+                            <constraint firstItem="fFE-1L-4PS" firstAttribute="leading" secondItem="ifi-r6-Qn9" secondAttribute="leading" id="V2V-o0-1Y3"/>
+                            <constraint firstItem="fFE-1L-4PS" firstAttribute="trailing" secondItem="O37-9M-MRY" secondAttribute="trailing" id="XZv-bE-bth"/>
+                            <constraint firstAttribute="trailing" secondItem="fFE-1L-4PS" secondAttribute="trailing" id="iAb-Dl-ITX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="stepsLabel" destination="O37-9M-MRY" id="bNY-f1-dM3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pfc-p6-aa3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="264" y="46"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
